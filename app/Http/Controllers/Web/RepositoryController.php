@@ -34,6 +34,9 @@ class RepositoryController extends Controller
             $repositories = $githubWrapper->repositories($request->get('nickname'));
         }
 
+        if(isset($repositories['message']))
+            $repositories = collect();
+
         $repositories = $repositories->map(function ($repository) {
            return [
                'id' => $repository['id'],
