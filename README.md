@@ -4,7 +4,7 @@ For this task I created a small app that collects data from GitHub api. After da
 
 On first load user is presented with homescreen and repositories tab is available when user is not authenticated. User can also log in with his GitHub account and see his followers. Same CRUD operations will be available for followers display as well.
 
-##How to run it
+## How to run it
 I created a docker setup which makes everything easy to run.
 
 First You need to create a GitHub OAuth application on your profile (https://github.com/settings/developers) and enter 
