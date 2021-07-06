@@ -1,4 +1,4 @@
-#Zerina Ramic - Github Data Collector
+# Zerina Ramic - Github Data Collector
 
 For this task I created a small app that collects data from GitHub api. After data display user can edit/save it and download it as json.
 
@@ -21,7 +21,7 @@ This should run the application and set everything up to be available on ```http
 
 If You want to run tests please run ```docker compose exec php php artisan test```.
 
-##Notes
+## Notes
 
 I intentionally left vendor and node_modules included with project, so You don't have to preinstall anything.
 
