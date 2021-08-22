@@ -23,10 +23,6 @@ If You want to run tests please run ```docker compose exec php php artisan test`
 
 ## Notes
 
-I intentionally left vendor and node_modules included with project, so You don't have to preinstall anything.
-
-I understand that this is not best practice, but I did this for convenience.
 
 If You want to download JSON file You first need to save changes by clicking on "Apply changes" button and then "Download JSON file" button will be available to You.
 
-That would be all from me. Good luck and have fun with this review :D.
